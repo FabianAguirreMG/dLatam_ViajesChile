@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Viajes Chile - Fabián Aguirre Cáceres</title>
+    <!-- CSS Bootstrap 5.3.2 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- Carga de fuentes poppins desde Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="assets/css/estilos.css" />
+  </head>
+  <body>
+    <section class="hero">
+      <!-- Barra de navegación -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top p-3">
+        <div class="container-fluid">
+          <!-- Logo -->
+          <a class="navbar-brand" href="#">
+            <img src="assets/img/logo.png" height="35" alt="Logo" />
+          </a>
+          <!-- Botón de hamburguesa para dispositivos móviles -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Elementos de menú -->
+          <div
+            class="collapse navbar-collapse justify-content-end p-2"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav gap-3">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#qSomos">Quienes Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#destacados">Destacados</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="hero"></div>
+    </section>
+    <!-- Container Quienes Somos -->
+    <main class="container p-5" id="qSomos">
+      <div class="titulo container text-center mt-5 pt-3"><h1>¿Quienes Somos?</h1></div>
+      <section class="quienesSomos p-3">
+        <p>
+          En Viajes Chile, te invitamos a descubrir la belleza y diversidad de
+          Chile, con un enfoque especial en el sur del país. Nuestros expertos
+          diseñan itinerarios personalizados para explorar desde la Patagonia
+          hasta la Araucanía. Creamos conexiones auténticas con la naturaleza,
+          cultura y comunidades locales. Ofrecemos aventuras únicas, desde
+          trekking hasta experiencias culinarias. Únete a nosotros para una
+          aventura inolvidable en Chile. ¡Tu viaje comienza aquí con Viajes
+          Chile!
+        </p>
+        <div class="d-none d-md-flex">
+        <div class="row row-cols-1 row-cols-md-3 g-4" data-bs-theme="dark">
+          <div class="col">
+            <div class="card">
+              <i class="fas fa-bed text-center p-5 fs-1"></i>
+              <div class="card-body">
+                <h5 class="card-title">Alojamiento</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <i class="fas fa-swimmer text-center p-5 fs-1"></i>
+              <div class="card-body">
+                <h5 class="card-title">Deportes Acuaticos</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <i class="fas fa-biking text-center p-5 fs-1"></i>
+              <div class="card-body">
+                <h5 class="card-title">CIrcuitos de ciclismo</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              </div>
+            </div>
+          </div>
+        
+        </div>
+      </div>
+     
+      </section>
+      <!-- Seccion fotografias Carrusel -->
+      <section id="destacados" class="fotografias d-none d-md-flex">
+        <aside class="servicios container">
+          <div class="tituloDestacado mt-5 pt-3">
+          <h3 class="text-center p-5">
+            Clientes que han confiado en nuestros paquetes turisticos
+          </h3></div>
+          <!-- Inicia Carrusel -->
+          <div
+            id="d-sm-none d-md-block container"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <!-- LAMINA 01 -->
+              <div class="carousel-item active">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                    <div class="card">
+                      <img src="assets/img/fondoHero.jpg" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <h5 class="card-title">Alan Brito Delgado</h5>
+                        <p class="card-text">
+                          This is a longer card with supporting text below as a
+                          natural lead-in to additional content. This content is
+                          a little bit longer.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <img src="assets/img/fondoHero.jpg" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <h5 class="card-title">Churrasik Park</h5>
+                        <p class="card-text">
+                          This is a longer card with supporting text below as a
+                          natural lead-in to additional content. This content is
+                          a little bit longer.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <img src="assets/img/fondoHero.jpg" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <h5 class="card-title">MacDowell</h5>
+                        <p class="card-text">
+                          This is a longer card with supporting text below as a
+                          natural lead-in to additional content. This content is
+                          a little bit longer.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- LAMINA 02 -->
+              
+                </div>
+              
+              <!-- LAMINA 03 -->
+              <div class="carousel-item"></div>
+            </div>
+          </div>
+          <!-- Termina Carrusel -->
+        </aside>
+      </section>
+    </main>
+
+    <!-- Seccion de contacto -->
+    <section id="contacto" class="container p-5">
+      <h3 class="text-center p-3">Escríbenos</h3>
+      <form class="p-3">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label"
+            >Email address</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+          <div id="emailHelp" class="form-text">
+            We'll never share your email with anyone else.
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label"
+            >Example textarea</label
+          >
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+          ></textarea>
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <label class="form-check-label" for="exampleCheck1"
+            >Check me out</label
+          >
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </section>
+    <!-- Sección Footer -->
+    <footer class="p-3">
+      <div
+        class="container d-flex justify-content-md-between justify-content-center align-items-center gap-3"
+      >
+        <div class="d-none d-md-flex">
+          <img src="assets/img/logo.png" height="35" alt="Logo" />
+        </div>
+        <div class="d-flex justify-content-end">
+          <ul class="list-group list-group-horizontal gap-3 social">
+            <li><i class="fab fa-github-square"></i></li>
+            <li><i class="fab fa-linkedin"></i></li>
+            <li><i class="fab fa-twitter-square"></i></li>
+            <li><i class="fab fa-facebook-square"></i></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JS Bootstrap 5.3.2/con Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+    <!-- JS de Fontawesome-->
+    <script
+      src="https://kit.fontawesome.com/33828e95e8.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- JS de JQuery-->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

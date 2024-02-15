@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  background: #212529;
+  color: #ffffff;
+}
+
+/* Estilos personalizados */
+
+.navbar-brand img {
+  max-height: 50px; /* Ajusta la altura del logo según sea necesario */
+}
+
+.titulo {
+  margin-top: 25px;
+}
+.quienesSomos p {
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.hero {
+  height: 100%;
+  background-image: url("/assets/img/fondoHero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+footer {
+  background: #333;
+}
+
+.nav-item {
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+.social {
+  list-style: none;
+  color: #ffffff;
+  font-size: 2.2rem;
+  text-align: right;
+}
